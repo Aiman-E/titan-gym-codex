@@ -27,7 +27,7 @@ const recentExercises = [
 
 function StatsSection() {
   return (
-    <div className="grid grid-cols-2 gap-3">
+    <div className="grid grid-cols-1 gap-3">
       {stats.map((stat) => (
         <Card key={stat.label} className="glass-card border-border/50">
           <CardContent className="p-4">
